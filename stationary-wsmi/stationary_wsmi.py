@@ -18,6 +18,7 @@ def computeWSMI(file_to_compute, word_to_compute, output_path, sample_rate, chan
     #channels: number of channels
     #trials: number of trials
     #samples_per_trial: samples per trial
+    #tau: distance between "atoms" in a symbol
 
     MAT_FULLNAME = file_to_compute
     STD_MONTAGE = 'GSN-HydroCel-128'

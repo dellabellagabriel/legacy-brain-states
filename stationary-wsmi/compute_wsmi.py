@@ -11,6 +11,7 @@ progress = open('progress.txt', 'r').read()
 for subject in files:
     subject_filename = os.path.basename(subject)
     if subject_filename in progress:
+        print('Ignoring ' + subject_filename + ' since it was found in progress.txt')
         continue
         
     computeWSMI(
