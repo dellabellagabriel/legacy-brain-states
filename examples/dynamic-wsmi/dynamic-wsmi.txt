@@ -1,0 +1,1 @@
+An example for this function is found in dynamic-wsmi/ and is called compute_dynamic.py
