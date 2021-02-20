@@ -16,7 +16,7 @@ You will need to have the following packages and programs
 * filtering: Applies a bandpass filter and subsampling
 * stationary-wsmi: Computes the wSMI matrix for the whole session
 * dynamic-wsmi: Uses the sliding window technique and computes a wSMI matrix for every window
-* k-means: Using the result from dynamic-wsmi the windows are classified into centroids using the k-means clustering algorithm
+* k-means: Using the result from dynamic-wsmi the windows are classified into centroids using the k-means clustering algorithm. It also computes the probability distribution of the states and transition probability between states at t and t+1
 
 # Examples
 You can find examples for every function in the "example" folder.
